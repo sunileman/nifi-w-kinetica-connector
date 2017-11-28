@@ -29,7 +29,7 @@ RUN \
 
 
 RUN apk add --update openssl
-RUN wget https://s3.amazonaws.com/kinetica-se/nifi-GPUdbNiFi-nar-6.0.0.nar -P /nifi/lib
+RUN wget https://s3.amazonaws.com/kinetica-se/NiFi-Connector/6.1/nifi-GPUdbNiFi-nar-6.1.0.nar -P /nifi/lib
 
 EXPOSE 8080
 
